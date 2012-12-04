@@ -1,2 +1,2 @@
 def bar():
-    print "Revision 1"
+    print "Revision 2"
