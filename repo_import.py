@@ -9,7 +9,7 @@ repo = git.Repo('.')
 
 
 global dtree
-dtree = repo.commit('TBA').tree
+dtree = repo.commit('4ee2add').tree
 
 
 def walk_repo(tree, name, fromlist, lname = None):
@@ -53,7 +53,7 @@ import foo
 
 foo.bar()
 
-dtree = repo.commit('TBA').tree
+dtree = repo.commit('40bf5f7').tree
 
 import foo
 
